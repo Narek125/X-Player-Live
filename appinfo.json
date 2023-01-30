@@ -1,0 +1,13 @@
+{
+    "bgColor": "#070350",
+    "vendor": "WiseTV",
+    "largeIcon": "img/logo/logo-lg-tv.png",
+    "icon": "img/logo/logo-lg-tv.png",
+    "main": "index.html",
+    "requiredMemory": 50,
+    "id": "com.wiseplayer.app",
+    "title": "Wise IPTV",
+    "type": "web",
+    "version": "1.0.6",
+    "disableBackHistoryAPI": true
+}

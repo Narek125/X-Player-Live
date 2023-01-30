@@ -1,0 +1,115 @@
+.playlists_block {
+  width: 71.4rem;
+
+  margin: 0 auto;
+}
+
+.playlist_items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  position: relative;
+  top: 22.8rem;
+}
+
+.playlist_item {
+  height: 6.9rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  background: #28303f;
+  box-shadow: inset -0.4rem -0.4rem 0.8rem #364055,
+    inset 0.4rem 0.4rem 0.8rem #202633;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+
+  position: relative;
+}
+
+.trash_svg {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  transition: 0.4s;
+}
+
+.playlist_item_link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.playlist_item_counter {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+.trash_svg {
+  width: 5rem;
+  height: 5rem;
+
+  background-image: url("../images/trash.png");
+}
+
+.active_trash {
+  width: 7.2rem;
+  height: 7.2rem;
+
+  background-image: url("../images/activeTrash.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.active_playlist {
+  background: #323b4f;
+  box-shadow: -0.4rem -0.4rem 1rem #38445a, 0.4rem 0.4rem 1rem #252b39;
+}
+.active_playlist > .playlist_item_link,
+.active_playlist > .playlist_item_counter {
+  color: #25f662;
+}
+.active_playlist > .trash_svg {
+  transform: translateX(8.2rem);
+  z-index: 1;
+}
+/* .playlist_item:hover {
+  background: #323b4f;
+  box-shadow: -0.4rem -0.4rem 1rem #38445a, 0.4rem 0.4rem 1rem #252b39;
+}
+.playlist_item:hover > .playlist_item_link,
+.playlist_item:hover > .playlist_item_counter {
+  color: #25f662;
+}
+.playlist_item:hover > .trash_svg {
+  transform: translateX(7.2rem);
+} */
+
+.playlist_add {
+  height: 6.9rem;
+  background: #28303f;
+  box-shadow: inset -0.4rem -0.4rem 0.8rem #364055,
+    inset 0.4rem 0.4rem 0.8rem #202633;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlist_add svg {
+  width: 4.5rem;
+  height: 4.5rem;
+}

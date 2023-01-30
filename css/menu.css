@@ -1,0 +1,82 @@
+.menu_items {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+
+  position: relative;
+  top: 25.2rem;
+}
+
+.menu_item {
+  width: 32.2rem;
+  height: 22.1rem;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.3s;
+  animation: example;
+  border-radius: 2rem;
+}
+
+.live_tv {
+  width: 66.1rem;
+  height: 40.9rem;
+  background-image: url("../images/live_tv_disactive.png");
+  position: relative;
+}
+
+.playlist {
+  background-image: url("../images/playlist_disactive.png");
+  position: relative;
+}
+
+.settings {
+  position: relative;
+  background-image: url("../images/settings_disactive.png");
+}
+
+.menu_live_tv_name,
+.menu_playlist_name,
+.menu_settings_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.9rem;
+  line-height: 3.9rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.menu_live_tv_name {
+  position: absolute;
+  left: 26.6rem;
+  bottom: 5.5rem;
+}
+
+.menu_playlist_name {
+  position: absolute;
+  left: 10.5rem;
+  bottom: 1rem;
+}
+
+.menu_settings_name {
+  position: absolute;
+  left: 10rem;
+  bottom: 1rem;
+}
+
+.menu_items_s {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

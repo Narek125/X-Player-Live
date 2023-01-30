@@ -1,0 +1,47 @@
+.language_items {
+  width: 71.9rem;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  position: relative;
+  top: 30.4rem;
+}
+
+.language_item {
+  height: 6.4rem;
+
+  text-align: center;
+  line-height: 6.4rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #ffffff;
+
+  background: #262e3d;
+  box-shadow: 0rem -1rem 4rem rgba(28, 34, 46, 0.4);
+  border-radius: 5rem;
+  transition: 0.3s;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.language_item img {
+  width: 4rem;
+  height: 2.5rem;
+}
+
+.language_item:hover {
+  background: #323b4f;
+  box-shadow: -2px -2px 10px #38445a, 8px 5px 7px #212735;
+
+  color: #25f662;
+}
